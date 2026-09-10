@@ -5,7 +5,7 @@ import Mathlib
 
 -- Beweis durch Kontraposition
 example (m n : Nat) (h : m ^ 2 < n ^ 2) : m < n := by
-  -- Kontraposition: danach ist h : n <= m, und das Ziel ist n^2 <= m^2
+  -- Kontraposition: danach ist h : n <= m und das Ziel n^2 <= m^2
   contrapose! h
   -- h mit n bzw. mit m multipliziert, dann beides hintereinander:
   have h1 : n * n <= m * n := Nat.mul_le_mul_right n h
