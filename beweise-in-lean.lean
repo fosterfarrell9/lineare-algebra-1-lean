@@ -1,6 +1,6 @@
 import Mathlib
 
--- Beispiel 1.9: Sind m, n natuerliche Zahlen mit m^2 < n^2, so ist m < n.
+-- Beispiel 1.12: Sind m, n natuerliche Zahlen mit m^2 < n^2, so ist m < n.
 -- Cursor in eine Beweiszeile setzen: rechts erscheint der Beweiszustand.
 
 -- Beweis durch Kontraposition
